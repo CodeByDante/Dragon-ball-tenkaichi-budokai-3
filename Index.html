@@ -8,82 +8,54 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #121212; /* Fondo oscuro */
-            color: #e0e0e0; /* Texto claro */
+            background-color: #f4f4f4;
         }
         h1 {
             text-align: center;
-            color: #ffffff; /* Título en blanco */
+            color: #333;
         }
         .combo {
-            background: #1e1e1e; /* Fondo de cada combo */
+            background: #fff;
+            border: 1px solid #ccc;
             border-radius: 5px;
             padding: 15px;
-            margin: 10px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 15px;
         }
-        .input {
-            font-weight: bold;
-            color: #1abc9c; /* Color para inputs */
+        .combo h2 {
+            margin: 0 0 10px;
+            color: #007BFF;
         }
-        .description {
-            color: #b0bec5; /* Color para descripciones */
-            margin-top: 10px;
+        .combo p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Listado Completo de Combos</h1>
-
+    <h1>Listado de Combos</h1>
     <div class="combo">
-        <h2>1. Combo de Golpes Fuertes</h2>
-        <p class="input">Input: ■ + ■ + ▲ + ▲ + ▲ + ■</p>
+        <h2>1. Golpes Fuertes</h2>
+        <p><strong>Input:</strong> ■ + ■ + ■ (o ■ + ■ + ■ + ■, dependiendo del personaje) + ▲ + ▲ + ▲ + ■</p>
     </div>
-
     <div class="combo">
-        <h2>2. Combo para Volar y Atacar desde Atrás</h2>
-        <p class="input">Input: Mantener L2 + ✘ + ✘ + ▲ + ■ + ▲</p>
+        <h2>2. Volar y Atacar desde Atrás</h2>
+        <p><strong>Input:</strong> Mantener aplastado R2 + ✘ + ✘ + ▲ + ■ + ▲ (mientras mantienes R2)</p>
     </div>
-
     <div class="combo">
-        <h2>3. Mejor Combo (con energía al máximo)</h2>
-        <p class="input">Input: Energía al máximo + ■ ↑ + ✘ + ■ + ✘ + ■ + ✘ + ■ + ▲↑ + ▲↓ + ▲← + ▲→</p>
+        <h2>3. Super Combo</h2>
+        <p><strong>Input:</strong> Energía al máximo + ■ ↑ + ✘ + ■ + ✘ + ■ + ✘ + ■ + ▲↑ + ▲↓ + ▲← + ▲→</p>
     </div>
-
     <div class="combo">
-        <h2>4. Combo de Esquivar y Contraataque</h2>
-        <p class="description">Descripción: Cuando el enemigo está atacando con 5 veces cuadrado (■ + ■ + ■ + ■ + ■) y tú te cubres con 𒊹, puedes contraatacar presionando ▲.</p>
-        <p class="input">Input: ■ + ■ + ■ + ■ + ■ (enemigo) → 𒊹 (cubrir) → ▲ (contraataque)</p>
+        <h2>4. Mientras el enemigo está atacando</h2>
+        <p><strong>Input:</strong> Cuando el enemigo está atacando con 5 cuadrados (■ + ■ + ■ + ■ + ■), cubre con 𒊹 y luego contraataca con ▲.</p>
     </div>
-
     <div class="combo">
-        <h2>5. Espaldear al Enemigo</h2>
-        <p class="input">Método 1: Mantener L2 + ✘ + ↑✘ + ✘</p>
-        <p class="input">Método 2: ✘↑ + ↑▲ + ⬈R1 + ⬈R2</p>
+        <h2>5. Hacer Contra Z</h2>
+        <p><strong>Input:</strong> Justo después de recibir un ataque, usa ↑■, luego presiona 𒊹.</p>
     </div>
-
     <div class="combo">
-        <h2>6. Hacer Contra Z</h2>
-        <p class="input">Input: Justo después de recibir un ataque, usa ↑■, luego presiona 𒊹.</p>
+        <h2>6. Combo Infinito</h2>
+        <p><strong>Input:</strong> ■ + ▲ + ■ ➞ 𒊹</p>
+        <p><strong>Input:</strong> ■ + ▲ + ■ ← 𒊹</p>
     </div>
-
-    <div class="combo">
-        <h2>7. Combo Infinito</h2>
-        <p class="input">Input: ■ + ▲ + ■ ➞ 𒊹</p>
-        <p class="input">Input: ■ + ▲ + ■ ← 𒊹</p>
-    </div>
-
-    <div class="combo">
-        <h2>8. Delisada (para buscar al enemigo por la espalda)</h2>
-        <p class="input">Input: ▲↑ + R1 + ✘</p>
-        <p class="description">Uso: Este combo es útil para buscar al enemigo por la espalda, permitiendo un ataque sorpresa.</p>
-    </div>
-
-    <div class="combo">
-        <h2>9. Combo Complementario a Delisada</h2>
-        <p class="input">Input: ■ + ■ + ■ + ■ + ■ + ✘ ↑ + ▲ + 5 ↑ + R1 + ✘</p>
-        <p class="description">Uso: Este combo complementa el "Delisada" para aumentar la eficacia del ataque.</p>
-    </div>
-
 </body>
 </html>
